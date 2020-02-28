@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.sunRise{
+  background-image: url(./images/sunrise.png);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.NoonDay{
+  background-image: url(./images/afternoon.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.PmDawn{
+  background-image: url(./images/sunset.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.TimeTime{
+  background-color: red;
+  color: white;
+  width: 500px;
+  height: 500px;
+}
